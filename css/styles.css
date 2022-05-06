@@ -55,7 +55,7 @@ body {
   border-radius: 2px;
 }
 /*------------- current button -------------------------------------------*/
-.filter-button.current-btn {
+.filter__button.filter__button--current {
   background-color: var(--focus-color);
   color: var(--bg-color-main);
 }
@@ -258,7 +258,6 @@ body {
 
 /* --------------------Особенности--------------------------- */
 .features-list__title,
-.examples-headlines,
 .section-headlines {
   color: var(--headlines-color);
 
@@ -637,17 +636,17 @@ body {
 }
 
 /*---------------- CSS PORTFOLIO -------------------------------------*/
-.filter-button-list {
+.filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.filter-button-item:not(:last-of-type) {
+.filter__item:not(:last-of-type) {
   margin-right: 8px;
 }
 
-.filter-button {
+.filter__button {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -663,8 +662,8 @@ body {
   padding: 6px 22px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filter-button:hover,
-.filter-button:focus {
+.filter__button:hover,
+.filter__button:focus {
   background-color: var(--focus-color);
   color: var(--bg-color-main);
 
@@ -672,12 +671,12 @@ body {
 }
 
 /* Thumb title */
-.examples-thumb {
+.portfolio-overlay {
   position: relative;
   overflow: hidden;
 }
 
-.examples-thumb-title {
+.portfolio-overlay__title {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -695,15 +694,15 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.examples-work-card:hover .examples-thumb-title,
-.examples-work-card:focus .examples-thumb-title {
+.portfolio__card:hover .portfolio-overlay__title,
+.portfolio__card:focus .portfolio-overlay__title {
   pointer-events: all;
   transform: translateY(0);
   background-color: rgba(33, 150, 243, 0.9);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.examples-work-list {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
 
@@ -711,26 +710,26 @@ body {
   margin-left: calc(-1 * var(--portfolio-gap));
 }
 
-.examples-work-item {
+.portfolio__item {
   flex-basis: calc(100% / 3 - var(--portfolio-gap));
 
   margin-top: var(--portfolio-gap);
   margin-left: var(--portfolio-gap);
 }
 
-.examples-work-card {
+.portfolio__card {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.examples-work-card:hover,
-.examples-work-card:focus {
+.portfolio__card:hover,
+.portfolio__card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.examples-work-title {
+.portfolio__title {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -738,19 +737,19 @@ body {
   padding: 20px 24px;
 }
 
-.examples-work-pic {
+.portfolio__pic {
   display: block;
   max-width: 100%;
 }
 
-.examples-headlines {
+.portfolio__headlines {
   color: var(--headlines-color);
 
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.examples-work-title .desc {
+.portfolio__title .portfolio__desc {
   font-size: 16px;
   line-height: 1.88;
 

@@ -43,6 +43,10 @@ a {
   text-decoration: none;
 }
 
+.section-headlines, .specifics, .team__name {
+  color: var(--headlines-color);
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -93,19 +97,14 @@ body {
   padding-bottom: 32px;
 }
 
-.clients-title,
-.team-title,
-.work-title {
+.clients__title,
+.team__title,
+.work__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--headlines-color);
   margin-bottom: 50px;
-}
-
-.features-list__title,
-.section-headlines {
-  color: var(--headlines-color);
 }
 
 .specifics {
@@ -116,7 +115,7 @@ body {
   margin-bottom: 10px;
 }
 
-.team-desc__name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -124,7 +123,7 @@ body {
   margin-bottom: 10px;
 }
 
-.team-desc__spec {
+.team__spec {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -178,7 +177,7 @@ body {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -312,11 +311,11 @@ body {
   padding-bottom: 0;
 }
 
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-list__logo {
+.features__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -327,32 +326,32 @@ body {
   padding-bottom: 25px;
 }
 
-.features-list__item {
+.features__item {
   max-width: 270px;
 }
 
-.features-list__item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.work-examples {
+.work__list {
   display: flex;
 }
 
-.work-examples__item {
+.work__item {
   position: relative;
 }
 
-.work-examples__item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.work-examples__pic {
+.work__pic {
   display: block;
   max-width: 100%;
 }
 
-.work-examples__title {
+.work__subtitle {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -372,7 +371,7 @@ body {
   background-color: var(--bg-color-section);
 }
 
-.team {
+.team__list {
   display: flex;
 }
 
@@ -392,7 +391,7 @@ body {
   max-width: 100%;
 }
 
-.team-desc {
+.team__desc {
   padding-top: 30px;
   padding-bottom: 30px;
   align-items: flex-end;

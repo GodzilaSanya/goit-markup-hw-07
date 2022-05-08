@@ -4,10 +4,8 @@
   padding-top: 24px;
   padding-bottom: 25px;
 
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-family: $font-logo;
+  @include font(700, 26px, 1.19);
 
   color: #000000;
   &--blue {

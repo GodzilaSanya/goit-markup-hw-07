@@ -3,11 +3,11 @@
   padding-bottom: 0;
 }
 
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-list__logo {
+.features__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   padding-bottom: 25px;
 }
 
-.features-list__item {
+.features__item {
   max-width: 270px;
   &:not(:last-child) {
     margin-right: 30px;

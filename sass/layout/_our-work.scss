@@ -1,21 +1,21 @@
-.work-examples {
+.work__list {
   display: flex;
 }
 
-.work-examples__item {
+.work__item {
   position: relative;
 }
 
-.work-examples__item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.work-examples__pic {
+.work__pic {
   display: block;
   max-width: 100%;
 }
 
-.work-examples__title {
+.work__subtitle {
   position: absolute;
   bottom: 0;
   display: flex;

@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Headet site -->
@@ -27,14 +27,16 @@
         <nav class="nav-block">
           <a href="./index.html" class="logo link"><span class="logo--blue">Web</span>Studio</a>
           <ul class="nav-block__list list">
-            <li class="nav-block__item"><a class="nav-block__link link current" href="./index.html">Студия</a></li>
+            <li class="nav-block__item">
+              <a class="nav-block__link nav-block__link--current" href="./index.html">Студия</a>
+            </li>
             <li class="nav-block__item"><a class="nav-block__link link" href="./portfolio.html">Портфолио</a></li>
             <li class="nav-block__item"><a class="nav-block__link link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="auth-nav list">
+        <ul class="auth-nav">
           <li class="auth-nav__item">
-            <a class="auth-nav__link link" href="mailto:info@devstudio.com">
+            <a class="auth-nav__link" href="mailto:info@devstudio.com">
               <svg class="auth-nav__icon" width="16px" height="12px">
                 <use href="./images/icon/symbol-defs.svg#icon-envelope"></use>
               </svg>
@@ -42,7 +44,7 @@
             </a>
           </li>
           <li class="auth-nav__item">
-            <a class="auth-nav__link link" href="tel:+380961111111">
+            <a class="auth-nav__link" href="tel:+380961111111">
               <svg class="auth-nav__icon" width="10px" height="16px">
                 <use href="./images/icon/symbol-defs.svg#icon-smartphone"></use>
               </svg>
@@ -61,10 +63,10 @@
         </div>
       </section>
       <!-- Особенности -->
-      <h2 class="visually-hidden" aria-hidden="true" tabindex="-1">Особенности</h2>
       <section class="section-gap--top">
+        <h2 class="visually-hidden" aria-hidden="true" tabindex="-1">Особенности</h2>
         <div class="conteiner">
-          <ul class="features-list list">
+          <ul class="features-list">
             <li class="features-list__item">
               <div class="features-list__logo">
                 <svg width="70px" height="70px">
@@ -114,7 +116,7 @@
       <!-- Чем мы занимаемся -->
       <section class="section-gap">
         <div class="conteiner">
-          <h2 class="section-headlines title-work">Чем мы занимаемся</h2>
+          <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="work-examples list">
             <li class="work-examples__item">
               <img class="work-examples__pic" src="./images/box_1.jpg" alt="Адаптивная верстка сайтов" width="370" />
@@ -134,7 +136,7 @@
       <!-- Наша команда -->
       <section class="section-gap section-gap--gray">
         <div class="conteiner">
-          <h2 class="section-headlines title-team">Наша команда</h2>
+          <h2 class="team-title">Наша команда</h2>
           <ul class="team list">
             <li class="team__item">
               <img class="team__pic" src="./images/team1.jpg" alt="Игорь Демьяненко" width="270" />
@@ -305,7 +307,7 @@
       <!-- Section clients -->
       <section class="clients section-gap">
         <div class="conteiner">
-          <h2 class="section-headlines title-clients">Постоянные клиенты</h2>
+          <h2 class="clients-title">Постоянные клиенты</h2>
           <ul class="clients__list list">
             <li class="clients__item">
               <a class="clients__link link" href="">
@@ -360,15 +362,15 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="conteiner">
+      <div class="conteiner conteiner--footer-centered">
         <div class="wrapper">
           <!-- перевірити доцільність врапера -->
-          <a href="./index.html" class="logo link"><span class="logo--blue">Web</span>Studio</a>
+          <a href="./index.html" class="logo logo--white"><span class="logo--blue">Web</span>Studio</a>
           <address class="address-block">
             <ul class="address-block__list list">
               <li class="address-block__item">
                 <a
-                  class="address-block__location link"
+                  class="address-block__location"
                   href="https://goo.gl/maps/tA7HPzwpF9PkPvpf6"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -377,10 +379,10 @@
               </li>
               <!-- здається можна перевикористати з шапки -->
               <li class="address-block__item">
-                <a class="address-block__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="address-block__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="address-block__item">
-                <a class="address-block__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="address-block__link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>

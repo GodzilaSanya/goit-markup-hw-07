@@ -1,0 +1,49 @@
+.clients-title,
+.team-title,
+.work-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--headlines-color);
+
+  margin-bottom: 50px;
+}
+
+.features-list__title,
+.section-headlines {
+  color: var(--headlines-color);
+}
+
+.specifics {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+//////Team section
+.team-desc__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.team-desc__spec {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+
+  margin-bottom: 16px;
+}
+//////Portfolio
+.portfolio__desc {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--second-text-color);
+}

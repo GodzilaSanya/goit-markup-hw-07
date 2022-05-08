@@ -1,3 +1,14 @@
+// team section
+.nav-font-style {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+//--------------------------------
 .clients-title,
 .team-title,
 .work-title {
@@ -23,7 +34,7 @@
 
   margin-bottom: 10px;
 }
-//////Team section
+//------Team section
 .team-desc__name {
   font-weight: 500;
   font-size: 16px;
@@ -40,7 +51,7 @@
 
   margin-bottom: 16px;
 }
-//////Portfolio
+//--------Portfolio
 .portfolio__desc {
   font-size: 16px;
   line-height: 1.88;

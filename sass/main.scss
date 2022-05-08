@@ -1,8 +1,6 @@
 @import './variables/var';
 @import './base/reset';
 @import './base/common';
-@import './utils/current-page';
-@import './utils/current_button';
 @import './components/backdrop';
 @import './components/conteiner';
 @import './components/title-style';
@@ -13,6 +11,7 @@
 //
 @import './components/logo';
 @import './layout/header';
+@import './utils/current-page';
 @import './layout/hero';
 @import './layout/features';
 @import './layout/our-work';
@@ -23,5 +22,6 @@
 @import './layout/footer';
 /////portfolio/////
 @import './components/filter-button';
+@import './utils/current_button';
 @import './layout/portfolio-markup';
 @import './components/modal-window';

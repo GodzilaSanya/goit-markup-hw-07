@@ -20,7 +20,7 @@
 
 .specifics {
   @include font(700, 14px, 1.4);
-  @extend .section-headlines;
+  @extend %section-headlines;
   text-transform: uppercase;
 
   margin-bottom: 10px;
@@ -28,7 +28,7 @@
 //------Team section
 .team__name {
   @include font(500, 16px, 1.18);
-  @extend .section-headlines;
+  @extend %section-headlines;
   text-align: center;
 
   margin-bottom: 10px;

@@ -43,7 +43,7 @@ a {
   text-decoration: none;
 }
 
-.section-headlines, .specifics, .team__name {
+.specifics, .team__name {
   color: var(--headlines-color);
 }
 
